@@ -111,8 +111,18 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pycountry
 import spacy
 import spacy.cli
+
+# ── Compatibility patch for spacy_transformers with transformers >= 4.49/5.x ──
+try:
+    import transformers.tokenization_utils_base
+    import transformers.tokenization_utils
+    if not hasattr(transformers.tokenization_utils, "BatchEncoding"):
+        transformers.tokenization_utils.BatchEncoding = transformers.tokenization_utils_base.BatchEncoding
+except Exception:
+    pass
 
 # ── UTF-8 stdout fix for Windows PowerShell ──────────────────────────────────
 if hasattr(sys.stdout, "reconfigure"):
@@ -358,7 +368,6 @@ def normalize_entity(text: str, label: str) -> str | None:
     # (e.g., "General Motors" accidentally matching "Gambia").
     if label in ("GPE", "NORP"):
         try:
-            import pycountry
             country = pycountry.countries.lookup(text)
             return country.alpha_2
         except LookupError:
@@ -397,15 +406,6 @@ def load_model(model_name: str = "en_core_web_lg"):
     We safely check which components exist before disabling to support
     both the lg and trf model families.
     """
-    # ── Compatibility patch for spacy_transformers with transformers >= 4.49/5.x ──
-    try:
-        import transformers.tokenization_utils_base
-        import transformers.tokenization_utils
-        if not hasattr(transformers.tokenization_utils, "BatchEncoding"):
-            transformers.tokenization_utils.BatchEncoding = transformers.tokenization_utils_base.BatchEncoding
-    except Exception:
-        pass
-
     log.info("Loading spaCy model: %s", model_name)
     try:
         nlp = spacy.load(model_name)
