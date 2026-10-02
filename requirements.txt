@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# OSINT Threat Intelligence Aggregator — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Phase 1: Ingestion ────────────────────────────────────────────────────────
+feedparser==6.0.11          # RSS / Atom parsing (handles malformed feeds gracefully)
+python-dotenv==1.0.1        # Load .env into os.environ at runtime
+requests==2.32.3            # HTTP fallback / feed URL validation
+tabulate==0.9.0             # Pretty-print ingestion stats tables to console
+
+# ── Phase 2: NER ──────────────────────────────────────────────────────────────
+spacy>=3.7.0                # NER pipeline framework
+pycountry==24.6.1           # ISO 3166-1 country database for entity normalisation
+# Install the transformer model separately after pip install:
+#   python -m spacy download en_core_web_trf
+# Or pin the exact wheel:
+# en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl
+
+# ── Phase 3: Classification ───────────────────────────────────────────────────
+transformers>=4.40.0        # HuggingFace pipeline for zero-shot NLI classification
+torch>=2.2.0                # PyTorch backend for transformer inference
+
+# ── Phase 4: Scoring ──────────────────────────────────────────────────────────
+google-genai>=0.1.0         # Official Gemini SDK
+
+# ── Phase 5: Clustering ───────────────────────────────────────────────────────
+sentence-transformers>=3.0.0 # Dense semantic sentence embeddings
+scikit-learn>=1.4.0         # DBSCAN clustering & cosine metrics
+numpy>=1.26.0               # Vector operations and .npy caching
+
+# ── Phase 6: Dashboard ────────────────────────────────────────────────────────
+streamlit>=1.38.0           # Interactive web dashboard
+plotly>=5.24.1              # Interactive charts (line charts, bar charts)
+folium>=0.17.0              # Leaflet.js choropleth world map
+streamlit-folium>=0.22.0    # Streamlit component bridge for Folium maps
+pandas>=2.0.0               # DataFrame operations (shared across all phases)

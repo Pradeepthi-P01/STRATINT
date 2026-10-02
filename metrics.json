@@ -1,0 +1,1328 @@
+{
+  "ingest": [
+    {
+      "timestamp": "2026-09-16T19:09:26Z",
+      "dry_run": false,
+      "total_attempted": 265,
+      "total_new": 265,
+      "total_skipped": 0,
+      "total_errors": 3,
+      "dedup_rate_pct": 0.0,
+      "per_source": [
+        {
+          "source": "Reuters",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "source": "AP News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:2:1326: not well-formed (invalid token)"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 25,
+          "inserted": 25,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 25,
+          "inserted": 25,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 60,
+          "inserted": 60,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 50,
+          "inserted": 50,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "Kyiv Independent",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:7:2: mismatched tag"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 45,
+          "inserted": 45,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 10,
+          "inserted": 10,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 50,
+          "inserted": 50,
+          "skipped": 0,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:09:46Z",
+      "dry_run": false,
+      "total_attempted": 265,
+      "total_new": 0,
+      "total_skipped": 265,
+      "total_errors": 3,
+      "dedup_rate_pct": 100.0,
+      "per_source": [
+        {
+          "source": "Reuters",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "source": "AP News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:2:1326: not well-formed (invalid token)"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 60,
+          "inserted": 0,
+          "skipped": 60,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        },
+        {
+          "source": "Kyiv Independent",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:7:2: mismatched tag"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 45,
+          "inserted": 0,
+          "skipped": 45,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 10,
+          "inserted": 0,
+          "skipped": 10,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:11:10Z",
+      "dry_run": false,
+      "total_attempted": 35,
+      "total_new": 0,
+      "total_skipped": 35,
+      "total_errors": 3,
+      "dedup_rate_pct": 100.0,
+      "per_source": [
+        {
+          "source": "Reuters",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "source": "AP News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:2:1326: not well-formed (invalid token)"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Kyiv Independent",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:2:0: syntax error"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:12:39Z",
+      "dry_run": false,
+      "total_attempted": 45,
+      "total_new": 10,
+      "total_skipped": 35,
+      "total_errors": 0,
+      "dedup_rate_pct": 77.8,
+      "per_source": [
+        {
+          "source": "VOA News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 5,
+          "inserted": 5,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 5,
+          "inserted": 5,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:13:32Z",
+      "dry_run": false,
+      "total_attempted": 288,
+      "total_new": 13,
+      "total_skipped": 275,
+      "total_errors": 1,
+      "dedup_rate_pct": 95.5,
+      "per_source": [
+        {
+          "source": "VOA News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ERROR: Feed parse error: <unknown>:2:0: syntax error"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 10,
+          "inserted": 5,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 60,
+          "inserted": 0,
+          "skipped": 60,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 13,
+          "inserted": 8,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 45,
+          "inserted": 0,
+          "skipped": 45,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 10,
+          "inserted": 0,
+          "skipped": 10,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:14:12Z",
+      "dry_run": false,
+      "total_attempted": 27,
+      "total_new": 0,
+      "total_skipped": 27,
+      "total_errors": 0,
+      "dedup_rate_pct": 100.0,
+      "per_source": [
+        {
+          "source": "VOA News",
+          "fetched": 0,
+          "inserted": 0,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 3,
+          "inserted": 0,
+          "skipped": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-16T19:16:55Z",
+      "dry_run": false,
+      "total_attempted": 312,
+      "total_new": 25,
+      "total_skipped": 287,
+      "total_errors": 0,
+      "dedup_rate_pct": 92.0,
+      "per_source": [
+        {
+          "source": "France 24 English",
+          "fetched": 24,
+          "inserted": 24,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 10,
+          "inserted": 0,
+          "skipped": 10,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 25,
+          "inserted": 0,
+          "skipped": 25,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 60,
+          "inserted": 0,
+          "skipped": 60,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 13,
+          "inserted": 0,
+          "skipped": 13,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 45,
+          "inserted": 1,
+          "skipped": 44,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 10,
+          "inserted": 0,
+          "skipped": 10,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 50,
+          "inserted": 0,
+          "skipped": 50,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-02T18:35:47Z",
+      "dry_run": false,
+      "total_attempted": 10,
+      "total_new": 10,
+      "total_skipped": 0,
+      "total_errors": 0,
+      "dedup_rate_pct": 0.0,
+      "per_source": [
+        {
+          "source": "France 24 English",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 1,
+          "inserted": 1,
+          "skipped": 0,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-02T18:41:03Z",
+      "dry_run": false,
+      "total_attempted": 50,
+      "total_new": 37,
+      "total_skipped": 13,
+      "total_errors": 0,
+      "dedup_rate_pct": 26.0,
+      "per_source": [
+        {
+          "source": "France 24 English",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 5,
+          "inserted": 1,
+          "skipped": 4,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 5,
+          "inserted": 4,
+          "skipped": 1,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-02T18:46:48Z",
+      "dry_run": false,
+      "total_attempted": 50,
+      "total_new": 0,
+      "total_skipped": 50,
+      "total_errors": 0,
+      "dedup_rate_pct": 100.0,
+      "per_source": [
+        {
+          "source": "France 24 English",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "NPR World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "BBC World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Al Jazeera",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hindu",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "South China Morning Post",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "DW World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Guardian World",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "Krebs on Security",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        },
+        {
+          "source": "The Hacker News",
+          "fetched": 5,
+          "inserted": 0,
+          "skipped": 5,
+          "status": "ok"
+        }
+      ]
+    }
+  ],
+  "evaluate_ner": [
+    {
+      "timestamp": "2026-09-17T14:25:48Z",
+      "model": "en_core_web_lg",
+      "validation_file": "D:\\OSINT_Project\\validation\\ner_validation.jsonl",
+      "articles_evaluated": 25,
+      "per_type": {
+        "GPE": {
+          "tp": 47,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ORG": {
+          "tp": 35,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "NORP": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "type_errors": 0,
+      "canonical_accuracy": 1.0
+    },
+    {
+      "timestamp": "2026-09-17T14:49:03Z",
+      "model": "en_core_web_lg",
+      "validation_file": "D:\\OSINT_Project\\validation\\ner_validation.jsonl",
+      "articles_evaluated": 25,
+      "per_type": {
+        "GPE": {
+          "tp": 37,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.7872,
+          "recall": 1.0,
+          "f1": 0.881
+        },
+        "ORG": {
+          "tp": 23,
+          "fp": 12,
+          "fn": 2,
+          "precision": 0.6571,
+          "recall": 0.92,
+          "f1": 0.7667
+        },
+        "NORP": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro": {
+        "precision": 0.8148,
+        "recall": 0.9733,
+        "f1": 0.8825
+      },
+      "type_errors": 2,
+      "canonical_accuracy": 0.9
+    },
+    {
+      "timestamp": "2026-10-02T14:41:47Z",
+      "model": "en_core_web_lg",
+      "validation_file": "D:\\OSINT_Project\\validation\\ner_validation.jsonl",
+      "articles_evaluated": 25,
+      "per_type": {
+        "GPE": {
+          "tp": 37,
+          "fp": 10,
+          "fn": 0,
+          "precision": 0.7872,
+          "recall": 1.0,
+          "f1": 0.881
+        },
+        "ORG": {
+          "tp": 23,
+          "fp": 12,
+          "fn": 2,
+          "precision": 0.6571,
+          "recall": 0.92,
+          "f1": 0.7667
+        },
+        "NORP": {
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro": {
+        "precision": 0.8148,
+        "recall": 0.9733,
+        "f1": 0.8825
+      },
+      "type_errors": 2,
+      "canonical_accuracy": 0.9
+    }
+  ],
+  "classify": [
+    {
+      "timestamp": "2026-09-18T05:25:59.347207+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 3,
+      "classifications_stored": 1,
+      "category_distribution": {
+        "military conflict": 0,
+        "cyberattack": 0,
+        "civil unrest": 0,
+        "diplomatic tension": 1,
+        "terrorism or extremist violence": 0,
+        "natural disaster": 0
+      },
+      "elapsed_seconds": 12.45
+    },
+    {
+      "timestamp": "2026-09-18T05:56:42.688518+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 312,
+      "classifications_stored": 243,
+      "category_distribution": {
+        "military conflict": 52,
+        "cyberattack": 50,
+        "civil unrest": 26,
+        "diplomatic tension": 70,
+        "terrorism or extremist violence": 31,
+        "natural disaster": 14
+      },
+      "elapsed_seconds": 1048.73
+    },
+    {
+      "timestamp": "2026-09-18T09:39:25.005336+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 139,
+      "classifications_stored": 0,
+      "category_distribution": {
+        "military conflict": 0,
+        "cyberattack": 0,
+        "civil unrest": 0,
+        "diplomatic tension": 0,
+        "terrorism or extremist violence": 0,
+        "natural disaster": 0
+      },
+      "elapsed_seconds": 418.42
+    },
+    {
+      "timestamp": "2026-10-02T18:35:58.402349+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 1,
+      "classifications_stored": 1,
+      "category_distribution": {
+        "military conflict": 0,
+        "cyberattack": 0,
+        "civil unrest": 0,
+        "diplomatic tension": 1,
+        "terrorism or extremist violence": 0,
+        "natural disaster": 0
+      },
+      "elapsed_seconds": 3.7
+    },
+    {
+      "timestamp": "2026-10-02T18:41:39.091970+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 5,
+      "classifications_stored": 1,
+      "category_distribution": {
+        "military conflict": 0,
+        "cyberattack": 0,
+        "civil unrest": 0,
+        "diplomatic tension": 0,
+        "terrorism or extremist violence": 0,
+        "natural disaster": 1
+      },
+      "elapsed_seconds": 24.46
+    },
+    {
+      "timestamp": "2026-10-02T18:47:16.359597+00:00",
+      "model": "facebook/bart-large-mnli",
+      "device": "cpu",
+      "threshold": 0.45,
+      "articles_processed": 5,
+      "classifications_stored": 2,
+      "category_distribution": {
+        "military conflict": 0,
+        "cyberattack": 0,
+        "civil unrest": 1,
+        "diplomatic tension": 1,
+        "terrorism or extremist violence": 0,
+        "natural disaster": 0
+      },
+      "elapsed_seconds": 18.29
+    }
+  ],
+  "evaluate_classify": [
+    {
+      "timestamp": "2026-09-18T07:05:01Z",
+      "model": "facebook/bart-large-mnli",
+      "threshold": 0.45,
+      "validation_file": "D:\\OSINT_Project\\validation\\classification_validation.jsonl",
+      "articles_evaluated": 25,
+      "per_category": {
+        "military conflict": {
+          "tp": 5,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091
+        },
+        "cyberattack": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "civil unrest": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667
+        },
+        "diplomatic tension": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.4286,
+          "recall": 1.0,
+          "f1": 0.6
+        },
+        "terrorism or extremist violence": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "natural disaster": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro": {
+        "precision": 0.5159,
+        "recall": 0.8333,
+        "f1": 0.6126
+      },
+      "exact_match_ratio": 0.84
+    },
+    {
+      "timestamp": "2026-10-02T14:38:38Z",
+      "model": "facebook/bart-large-mnli",
+      "threshold": 0.45,
+      "validation_file": "D:\\OSINT_Project\\validation\\classification_validation.jsonl",
+      "articles_evaluated": 25,
+      "per_category": {
+        "military conflict": {
+          "tp": 5,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091
+        },
+        "cyberattack": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "civil unrest": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667
+        },
+        "diplomatic tension": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.4286,
+          "recall": 1.0,
+          "f1": 0.6
+        },
+        "terrorism or extremist violence": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.3333,
+          "recall": 1.0,
+          "f1": 0.5
+        },
+        "natural disaster": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro": {
+        "precision": 0.5159,
+        "recall": 0.8333,
+        "f1": 0.6126
+      },
+      "exact_match_ratio": 0.84
+    }
+  ],
+  "score": [
+    {
+      "timestamp": "2026-09-18T10:10:20.263708+00:00",
+      "engine": "Gemini Flash API",
+      "articles_processed": 3,
+      "average_score": 2.33,
+      "score_distribution": {
+        "0-2 (Routine)": 2,
+        "3-4 (Elevated)": 1,
+        "5-6 (Active Conflict)": 0,
+        "7-8 (Major Escalation)": 0,
+        "9-10 (Catastrophic)": 0
+      },
+      "elapsed_seconds": 20.2
+    },
+    {
+      "timestamp": "2026-10-02T18:36:01.643754+00:00",
+      "model": "gemini-1.5-flash",
+      "engine": "Gemini API (gemini-1.5-flash)",
+      "articles_processed": 1,
+      "articles_scored": 1,
+      "quota_exceeded_skipped": 0,
+      "average_score": 5.0,
+      "score_distribution": {
+        "0-2 (Routine)": 0,
+        "3-4 (Elevated)": 0,
+        "5-6 (Active Conflict)": 1,
+        "7-8 (Major Escalation)": 0,
+        "9-10 (Catastrophic)": 0
+      },
+      "elapsed_seconds": 0.6
+    },
+    {
+      "timestamp": "2026-10-02T18:41:49.947480+00:00",
+      "model": "gemini-1.5-flash",
+      "engine": "Gemini API (gemini-1.5-flash)",
+      "articles_processed": 5,
+      "articles_scored": 5,
+      "quota_exceeded_skipped": 0,
+      "average_score": 5.0,
+      "score_distribution": {
+        "0-2 (Routine)": 0,
+        "3-4 (Elevated)": 0,
+        "5-6 (Active Conflict)": 5,
+        "7-8 (Major Escalation)": 0,
+        "9-10 (Catastrophic)": 0
+      },
+      "elapsed_seconds": 5.93
+    },
+    {
+      "timestamp": "2026-10-02T18:47:24.089060+00:00",
+      "model": "gemini-1.5-flash",
+      "engine": "Gemini API (gemini-1.5-flash)",
+      "articles_processed": 5,
+      "articles_scored": 5,
+      "quota_exceeded_skipped": 0,
+      "average_score": 5.0,
+      "score_distribution": {
+        "0-2 (Routine)": 0,
+        "3-4 (Elevated)": 0,
+        "5-6 (Active Conflict)": 5,
+        "7-8 (Major Escalation)": 0,
+        "9-10 (Catastrophic)": 0
+      },
+      "elapsed_seconds": 6.13
+    }
+  ],
+  "evaluate_score": [
+    {
+      "timestamp": "2026-09-18T12:59:54Z",
+      "model": "gemini-1.5-flash",
+      "validation_file": "D:\\OSINT_Project\\validation\\score_validation.jsonl",
+      "articles_evaluated": 25,
+      "spearman_correlation": 0.5526,
+      "spearman_p_value": 0.004175,
+      "mean_absolute_error": 1.48
+    },
+    {
+      "timestamp": "2026-10-02T14:37:14Z",
+      "model": "gemini-1.5-flash",
+      "validation_file": "D:\\OSINT_Project\\validation\\score_validation.jsonl",
+      "articles_evaluated": 25,
+      "spearman_correlation": 0.5526,
+      "spearman_p_value": 0.004175,
+      "mean_absolute_error": 1.48
+    }
+  ],
+  "cluster": [
+    {
+      "timestamp": "2026-09-18T14:06:47.587732+00:00",
+      "model": "all-MiniLM-L6-v2",
+      "eps": 0.3,
+      "min_samples": 2,
+      "articles_processed": 313,
+      "clusters_found": 23,
+      "clustered_articles": 73,
+      "noise_articles": 240,
+      "noise_percentage": 76.68
+    },
+    {
+      "timestamp": "2026-09-19T05:46:38.633867+00:00",
+      "model": "all-MiniLM-L6-v2",
+      "eps": 0.3,
+      "min_samples": 2,
+      "articles_processed": 313,
+      "clusters_found": 23,
+      "clustered_articles": 73,
+      "noise_articles": 240,
+      "noise_percentage": 76.68
+    },
+    {
+      "timestamp": "2026-10-02T18:36:08.119028+00:00",
+      "model": "all-MiniLM-L6-v2",
+      "eps": 0.3,
+      "min_samples": 2,
+      "articles_processed": 323,
+      "clusters_found": 23,
+      "clustered_articles": 73,
+      "noise_articles": 250,
+      "noise_percentage": 77.4
+    },
+    {
+      "timestamp": "2026-10-02T18:41:59.393505+00:00",
+      "model": "all-MiniLM-L6-v2",
+      "eps": 0.3,
+      "min_samples": 2,
+      "articles_processed": 360,
+      "clusters_found": 24,
+      "clustered_articles": 75,
+      "noise_articles": 285,
+      "noise_percentage": 79.17
+    }
+  ],
+  "evaluate_cluster": [
+    {
+      "timestamp": "2026-09-18T14:08:37Z",
+      "model": "all-MiniLM-L6-v2 + DBSCAN",
+      "validation_file": "D:\\OSINT_Project\\validation\\cluster_validation.jsonl",
+      "pairs_evaluated": 20,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 10,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    {
+      "timestamp": "2026-10-02T14:37:07Z",
+      "model": "all-MiniLM-L6-v2 + DBSCAN",
+      "validation_file": "D:\\OSINT_Project\\validation\\cluster_validation.jsonl",
+      "pairs_evaluated": 20,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 10,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  ]
+}

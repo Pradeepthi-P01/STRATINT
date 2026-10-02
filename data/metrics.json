@@ -1,0 +1,41 @@
+{
+  "ner": {
+    "timestamp": "2026-09-17T00:00:00Z",
+    "f1": "0.882",
+    "precision": "0.815",
+    "recall": "0.973",
+    "canonical_acc": "90.0%",
+    "entities_extracted": 1136,
+    "model": "en_core_web_lg"
+  },
+  "classify": {
+    "timestamp": "2026-09-17T00:00:00Z",
+    "macro_f1": "0.613",
+    "exact_match": "84.0%",
+    "cyber_f1": "1.00",
+    "military_f1": "0.91",
+    "total_tags": 244,
+    "threshold": 0.45,
+    "model": "facebook/bart-large-mnli"
+  },
+  "score": {
+    "timestamp": "2026-09-18T00:00:00Z",
+    "spearman_r": "0.5526",
+    "p_value": "0.0042",
+    "mae": "1.48",
+    "std_dev": "0.489",
+    "articles_scored": 3,
+    "model": "gemini-1.5-flash"
+  },
+  "cluster": {
+    "timestamp": "2026-09-18T00:00:00Z",
+    "f1": "1.000",
+    "accuracy": "100.0%",
+    "clusters": 23,
+    "articles_clustered": 73,
+    "noise_articles": 240,
+    "eps": 0.3,
+    "min_samples": 2,
+    "model": "all-MiniLM-L6-v2"
+  }
+}

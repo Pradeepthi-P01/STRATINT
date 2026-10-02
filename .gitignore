@@ -1,0 +1,22 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables — NEVER commit this
+.env
+
+# Database file (large, runtime-generated)
+osint.db
+osint.db-wal
+osint.db-shm
+
+# Cached embeddings (Phase 5, large compressed binary)
+data/embeddings.npz
+
+# Metrics output (optional — commit if you want history in git)
+# metrics.json
+
+# OS junk
+.DS_Store
+Thumbs.db
