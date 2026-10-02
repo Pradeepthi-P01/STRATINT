@@ -33,7 +33,7 @@ import numpy as np
 import pandas as pd
 import pycountry
 
-from db import get_connection
+from db import get_connection, init_db, migrate_db
 
 log = logging.getLogger("aggregate")
 
@@ -109,7 +109,10 @@ def canonical_to_iso3(code: str) -> tuple[str | None, str]:
 def load_raw_tables() -> dict[str, pd.DataFrame]:
     """
     Load articles, entities, classifications, scores, and clusters as DataFrames.
+    Ensures tables exist before reading.
     """
+    init_db()
+    migrate_db()
     conn = get_connection()
     # E-2 fix: use try/finally so the connection always closes, even on error.
     try:

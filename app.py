@@ -284,7 +284,20 @@ scores_df = raw_data.get("scores", pd.DataFrame())
 clusters_df = raw_data.get("clusters", pd.DataFrame())
 
 if articles_df.empty:
-    st.error("⚠️ Database contains no articles. Please run ingest pipeline first.")
+    st.info("👋 **Welcome to STRATINT!** Your cloud intelligence database is freshly initialized and ready for its first intelligence cycle.")
+    if st.button("🚀 Ingest & Process Initial Intelligence Feed Now", type="primary", use_container_width=True):
+        status_container = st.status("🔄 Running initial intelligence pipeline...", expanded=True)
+        def _onboard_cb(msg: str, progress: float):
+            status_container.update(label=msg, state="running")
+        res = pipeline_runner.run_full_pipeline(limit=5, progress_callback=_onboard_cb)
+        if res.get("success"):
+            status_container.update(label=f"✅ Initial intelligence sync complete ({res.get('elapsed_seconds', 0)}s)!", state="complete")
+            st.cache_data.clear()
+            st.toast("Initial intelligence loaded!", icon="🚀")
+            st.rerun()
+        else:
+            status_container.update(label="❌ Ingestion failed", state="error")
+            st.error(f"Error: {res.get('error')}")
     st.stop()
 
 # Compute calculated datasets
