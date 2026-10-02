@@ -409,12 +409,20 @@ def load_model(model_name: str = "en_core_web_lg"):
     try:
         nlp = spacy.load(model_name)
     except OSError:
-        log.error(
-            "Model '%s' not found. Install with:\n"
-            "  python -m spacy download %s",
-            model_name, model_name,
-        )
-        sys.exit(1)
+        log.warning("Model '%s' not found locally. Attempting automatic download...", model_name)
+        try:
+            import spacy.cli
+            spacy.cli.download(model_name)
+            nlp = spacy.load(model_name)
+        except Exception as err:
+            log.warning("Could not download '%s' (%s). Trying lightweight 'en_core_web_sm'...", model_name, err)
+            try:
+                import spacy.cli
+                spacy.cli.download("en_core_web_sm")
+                nlp = spacy.load("en_core_web_sm")
+            except Exception as final_err:
+                log.error("Failed to load or download any spaCy model: %s", final_err)
+                nlp = spacy.blank("en")
 
     # Disable components we don't need — safe: we only use NER output.
     _can_disable = {"tagger", "parser", "senter", "attribute_ruler", "lemmatizer"}
