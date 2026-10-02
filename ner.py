@@ -111,6 +111,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import spacy
+import spacy.cli
+
 # ── UTF-8 stdout fix for Windows PowerShell ──────────────────────────────────
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -403,21 +406,17 @@ def load_model(model_name: str = "en_core_web_lg"):
     except Exception:
         pass
 
-    import spacy
-
     log.info("Loading spaCy model: %s", model_name)
     try:
         nlp = spacy.load(model_name)
     except OSError:
         log.warning("Model '%s' not found locally. Attempting automatic download...", model_name)
         try:
-            import spacy.cli
             spacy.cli.download(model_name)
             nlp = spacy.load(model_name)
         except Exception as err:
             log.warning("Could not download '%s' (%s). Trying lightweight 'en_core_web_sm'...", model_name, err)
             try:
-                import spacy.cli
                 spacy.cli.download("en_core_web_sm")
                 nlp = spacy.load("en_core_web_sm")
             except Exception as final_err:
